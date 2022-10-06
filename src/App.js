@@ -11,7 +11,7 @@ function App() {
       <NavBar/>
       <Header/>
       {infoTarjetas.map(tarjetas =>{
-        <Cards tarjetas={tarjetas}/>
+        <Cards tarjeta={tarjetas} img={infoTarjetas.img}/>
       })}
 
 
